@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luis Scheibe</title>
+  <meta name="description" content="Luis Scheibe, Mechanical Engineering B.S./M.S. student at Cal Poly San Luis Obispo.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="headerbox">
+      <h1 id="name">Luis Scheibe</h1>
+      <img src="assets/img/profile.jpg" alt="Luis Scheibe">
+      <p>B.S./M.S. student at Cal Poly SLO<br>majoring in Mechanical Engineering</p>
+    </div>
+    <nav class="header-links">
+      <button type="button" data-view="about" class="current">About</button>
+      <button type="button" data-view="experience">Experience</button>
+      <button type="button" data-view="projects">Projects</button>
+      <button type="button" data-link="assets/Luis_Scheibe_Resume.pdf">Resume</button>
+      <button type="button" data-link="https://www.linkedin.com/in/luis-scheibe">LinkedIn</button>
+      <button type="button" data-link="https://github.com/luisscheibe9-git">GitHub</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About -->
+    <div class="view" id="about">
+      <h2>About Me</h2>
+      <p>I'm a mechanical engineering student in Cal Poly's blended B.S./M.S. program. I like work that goes all the way
+      from CAD to a finished part: designing in SolidWorks, checking the design with FEA, and then machining, printing
+      and assembling it myself. So far that has meant drone payloads, UAS hardware and biomedical implants.</p>
+      <p>I'm currently an engineering intern at Overwatch Aero and I'm working on an industry-sponsored senior
+      project with Voliro AG. I'm looking for a Summer 2027 internship in mechanical,
+      manufacturing, robotics or aerospace engineering in Southern California.</p>
+      <p>Outside of engineering I build small software tools and I'm teaching myself about machine learning.</p>
+
+      <section class="education">
+        <h2>Education</h2>
+        <p><strong>California Polytechnic State University, San Luis Obispo</strong><br>
+        M.S. in Mechanical Engineering (blended program), <em>Expected Graduation: December 2027</em><br>
+        B.S. in Mechanical Engineering, <em>Expected Graduation: December 2026</em></p>
+      </section>
+
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li><strong>CAD/FEA:</strong> SolidWorks, ANSYS, Autodesk Fusion 360, Creo, Onshape, LTspice</li>
+          <li><strong>Manufacturing &amp; Prototyping:</strong> Engineering drawings, CNC machining, wire EDM, mill &amp; lathe fabrication, 3D printing (FDM/SLA), composites, materials selection &amp; testing</li>
+          <li><strong>Programming:</strong> MATLAB, Python, Engineering Equation Solver (EES), JavaScript</li>
+          <li><strong>Certifications:</strong> FAA Part 107 Remote Pilot</li>
+          <li><strong>Languages:</strong> English (fluent), German (fluent)</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Experience -->
+    <div class="view" id="experience" hidden>
+      <h2>Experience</h2>
+      <ol class="project-list">
+        <li>
+          <h3>Engineering Intern, Overwatch Aero</h3>
+          <p class="meta">Santa Maria, CA · August 2026 – Present</p>
+          <ul>
+            <li>Built and set up an Avid CNC machine, including all supporting infrastructure required for operation.</li>
+            <li>Designed and manufactured a mounting solution for a drone-mounted payload.</li>
+            <li>Designed and built a carbon fiber/composite cart with adjustable rollers.</li>
+            <li>Designed a rooftop truck mount for a drone to validate pitot tube accuracy ahead of flight testing.</li>
+            <li>Installed camera gimbals in helicopters and airplanes, and built wiring harnesses for UAS platforms.</li>
+            <li>Obtained FAA Part 107 Remote Pilot Certification.</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Manufacturing Engineering Intern, Tri-Power Design</h3>
+          <p class="meta">Denville, NJ · June – August 2025</p>
+          <ul>
+            <li>Engineered and modeled an acetabular augmentation system prototype for revision total hip replacement, applying DFM principles.</li>
+            <li>Operated CNC machines, wire EDM, lathes and manual mills to manufacture biomedical implants and equipment in compliance with ISO specifications.</li>
+            <li>Interpreted complex engineering drawings to manufacture high-precision parts.</li>
+            <li>Assembled biomedical automation machines, ensuring functional performance against specifications.</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Member, Tikkun Olam Makers (Cal Poly Chapter)</h3>
+          <ul>
+            <li>Design and 3D print affordable, open-source assistive technology for people with disabilities, including custom prosthetic attachments and mobility devices.</li>
+            <li>Collaborate with local partners including CAPSLO, SLO SELPA and Cal Poly's Disability Resource Center to build devices for specific end users.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+
+    <!-- Projects -->
+    <div class="view" id="projects" hidden>
+      <h2>Engineering Projects</h2>
+      <ol class="project-list">
+        <li>
+          <h3>Aerial EMAT Scanning Payload: <em>Senior Design with Voliro AG</em></h3>
+          <p class="meta">Industry-sponsored senior project · January – December 2026</p>
+          <ul>
+            <li>Developing a robotic arm payload that lets the Voliro T inspection drone do aerial EMAT area scanning.</li>
+            <li>Building a first-of-its-kind EMAT-based system that turns point corrosion measurements into continuous area mapping.</li>
+            <li>Designed and validated the complete payload assembly in SolidWorks, including structural architecture, mounting interface and mass optimization.</li>
+            <li>Performed static and modal FEA to quantify stress, deflection, natural frequencies and factor of safety under contact and flight loads.</li>
+            <li>Built and tested a proof-of-concept prototype integrating actuation, EMAT sensing and control software.</li>
+          </ul>
+          <div class="photos">
+            <img src="assets/img/voliro-t-drone.jpg" alt="Voliro T inspection drone">
+          </div>
+        </li>
+      </ol>
+
+      <h2>Software Projects</h2>
+      <ol class="project-list">
+        <li>
+          <a href="https://luisscheibe9-git.github.io/mustang-guide/" target="_blank" rel="noopener">Mustang Guide</a>
+          <ul>
+            <li>A searchable, filterable guide to the rentals, discounts, classes and San Luis Obispo experiences Cal Poly students should take advantage of.</li>
+          </ul>
+        </li>
+        <li>
+          <a href="https://luisscheibe9-git.github.io/imposter/" target="_blank" rel="noopener">Imposter</a>
+          <ul>
+            <li>A free pass-and-play party game in the style of Spyfall. It runs in the browser with no account or backend and can be installed to a phone's home screen.</li>
+          </ul>
+        </li>
+        <li>
+          <a href="https://luisscheibe9-git.github.io/3d-model-finder-/" target="_blank" rel="noopener">MeshFind</a>
+          <ul>
+            <li>A single search page for printable 3D models and editable CAD across many source sites.</li>
+          </ul>
+        </li>
+        <li>
+          <a href="https://luisscheibe9-git.github.io/website-demo/" target="_blank" rel="noopener">True Black To Do</a>
+          <ul>
+            <li>A to-do list, calendar and sticky notes workspace that saves automatically in the browser.</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Launchpad Internship Dashboard</h3>
+          <ul>
+            <li>A private dashboard that collects internship postings from 110+ employer career sites every 6 hours and tracks each application from saved to offer.</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Local LLM Lab</h3>
+          <ul>
+            <li>Ran open-source language models on my laptop's GPU and built a browser chat page, a small coding agent and a benchmark comparing models on coding, reasoning and tool use.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
