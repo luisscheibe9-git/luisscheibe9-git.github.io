@@ -1,4 +1,4 @@
-# Luis Scheibe: Portfolio website
+﻿# Luis Scheibe: Portfolio website
 
 A personal portfolio site styled after Kian Maher's (kimaher.github.io/Kian-sWebsite): white page, Arial, name + round photo +
 gray buttons on the left, and big headings with an underline on the right. The only extra touch is Cal Poly green (`--green` in
@@ -7,7 +7,7 @@ gray buttons on the left, and big headings with an underline on the right. The o
 The About / Experience / Projects buttons switch the right-hand content (the `.view` blocks in `index.html`). Resume, LinkedIn and GitHub
 open in a new tab. It's plain HTML, CSS and JavaScript with no build step. On phones the two columns stack.
 
-Planned address: **https://luisscheibe9-git.github.io** (GitHub Pages user site).
+Live at **https://luisscheibe9-git.github.io** (GitHub Pages, published 2026-09-28 from repo luisscheibe9-git/luisscheibe9-git.github.io). Any push to `main` updates the site within about a minute.
 
 ## Files
 | Path | What it is |
