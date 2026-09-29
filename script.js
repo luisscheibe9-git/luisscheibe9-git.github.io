@@ -9,6 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
     window.scrollTo(0, 0);
   }
 
+  // Clicking a gallery photo opens it full size
+  document.querySelectorAll('.gallery img').forEach(img => {
+    img.addEventListener('click', () => window.open(img.src, '_blank'));
+  });
+
   buttons.forEach(button => {
     button.addEventListener('click', () => {
       if (button.dataset.view) show(button.dataset.view);
